@@ -1,0 +1,176 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #0D0D0F;
+}
+
+.main-contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-contenedor {
+  margin-top: 50px;
+}
+
+.logo-contenedor .logo-contenedor-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.logo-contenedor .logo-spotify {
+  width: 110px;
+  height: 110px;
+  background-color: #1ED55F;
+  border-radius: 100px;
+}
+
+.logo-contenedor .logo-contenedor-text {
+  font-size: 35px;
+  font-family: Montserrat;
+  font-weight: bolder;
+  color: white;
+  margin-top: 8px;
+}
+
+.form-contenedor {
+  margin-top: 50px;
+}
+
+.form-contenedor .form-contenedor-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  font-family: Roboto;
+}
+
+.form-contenedor .form-username {
+  width: 200px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #121315;
+  border-style: inset;
+  border-color: white;
+  margin-bottom: 8px;
+}
+
+.form-contenedor .form-username::-webkit-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-username:-ms-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-username::-ms-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-username::placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-password {
+  width: 200px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #121315;
+  border-style: inset;
+  border-color: white;
+}
+
+.form-contenedor .form-password::-webkit-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-password:-ms-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-password::-ms-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-password::placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-forgot {
+  margin-top: 3px;
+  color: grey;
+  font-size: 13px;
+  text-align: right;
+}
+
+.form-contenedor .btn-sign {
+  background-color: #1ED55F;
+  color: white;
+  border-style: none;
+  width: 200px;
+  height: 35px;
+  border-radius: 100px;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+
+.social-contenedor .social-contenedor-text {
+  font-family: Roboto;
+  color: #1CAB4F;
+  font-size: 13px;
+}
+
+.social-contenedor .facebook-logo {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.social-contenedor .google-logo {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 100px;
+  position: relative;
+  right: -40px;
+}
+
+.sign-up {
+  margin-top: 15px;
+  font-family: Roboto;
+  font-size: 13px;
+  color: grey;
+}
+
+.sign-up a {
+  color: #1ED55F;
+}
+/*# sourceMappingURL=styles.css.map */
